@@ -1,5 +1,5 @@
-#!/usr/bin/python3
+#!/bin/env python
 str = "Holberton School"
-print(f"{str + ' ' + str + ' ' + str}")
+print(f"{str + str + str}")
+#or (f"3*str")
 print(str[:9])
-#the above can be written like this print(str[0:9])
