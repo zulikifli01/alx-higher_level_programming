@@ -6,3 +6,4 @@ f-string is used to complete the source code of this script
 f-string float is used to complete the source code of this script
 printing the same value multiple times
 adding two strings together to complete a source code
+slicing string and negative indexing are used
