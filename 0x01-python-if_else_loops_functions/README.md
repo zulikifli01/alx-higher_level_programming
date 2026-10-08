@@ -8,3 +8,4 @@ printed numbers in ascending order, with two digit
 printed all possible different combinations of two digits
 a function that check for lowercase charcter using c.islower
 used def uppercase instead of predefined function
+def print last digit(number)
