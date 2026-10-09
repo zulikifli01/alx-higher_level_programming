@@ -12,3 +12,4 @@ def print last digit(number)
 used def add() and return value()
 used def pow() and return value()
 printed numbers from 1 to 100 replacing the multiple of 3 and 5 with words
+writing the ASCII alphabet in reverse
