@@ -10,3 +10,4 @@ a function that check for lowercase charcter using c.islower
 used def uppercase instead of predefined function
 def print last digit(number)
 used def add() and return value()
+used def pow() and return value()
