@@ -7,3 +7,4 @@ replaces an element in a list at a specific position without modifying the origi
 a function that removes all characters c and C from a string
 a function that prints a matrix of integers
 a function that adds 2 tuples
+a function that returns a tuple with the length of a string and its first character
