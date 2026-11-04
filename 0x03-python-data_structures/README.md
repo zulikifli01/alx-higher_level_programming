@@ -6,3 +6,4 @@ printed integers of a list in reverse order using str.format and def function
 replaces an element in a list at a specific position without modifying the original list
 a function that removes all characters c and C from a string
 a function that prints a matrix of integers
+a function that adds 2 tuples
