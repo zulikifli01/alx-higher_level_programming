@@ -17,10 +17,3 @@ def roman_to_int(roman_string):
             i += 1
 
     return total
-
-
-print("X =", roman_to_int("X"))
-print("VII =", roman_to_int("VII"))
-print("IX =", roman_to_int("IX"))
-print("LXXXVII =", roman_to_int("LXXXVII"))
-print("DCCVIII =", roman_to_int("DCCVII"))
