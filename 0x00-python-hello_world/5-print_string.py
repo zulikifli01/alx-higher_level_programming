@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/python3
 str = "Holberton School"
 print(f"{str + str + str}")
 #or (f"3*str")
