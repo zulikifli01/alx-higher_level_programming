@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""for i in range(97, 123):
-    print(chr(i), end="")"""
-'''def replaement():'''
-for i in range(122, 96,-1):
-    char = chr(i) if i % 2 == 0 else chr(i -32)
-    print(char, end="")
+
+i = 0
+for c in range(ord('z'), ord('a') - 1, -1):
+    print('{}'.format(chr(c - i)), end="")
+    i = 32 if i == 0 else 0
