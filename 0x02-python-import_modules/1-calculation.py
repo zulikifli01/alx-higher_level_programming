@@ -8,7 +8,9 @@ addition = add(a, b)
 subtraction = sub(a, b)
 multiplication = mul(a, b)
 division = div(a, b)
-print(f"{a} + {b} = {addition}")
-print(f"{a} - {b} = {subtraction}")
-print(f"{a} * {b} = {multiplication}")
-print(f"{a} / {b} = {division}")
+
+
+print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
+print('{:d} - {:d} = {:d}'.format(a, b, sub(a, b)))
+print('{:d} * {:d} = {:d}'.format(a, b, mul(a, b)))
+print('{:d} / {:d} = {:d}'.format(a, b, div(a, b)))
