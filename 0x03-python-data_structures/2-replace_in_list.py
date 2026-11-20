@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/python3
 '''a_list = [1, 2, 3, 4, 5]
 
 def replace_values(list_to_replace, item_to_replace, item_to_replace_with):
@@ -18,13 +18,8 @@ def findAndReplace(orig, toFind, replacement):
     return orig
 print(findAndReplace(orig, toFind, replacement))'''
 
-my_list = [1, 2, 3, 4, 5]
-idx = 4
-element = 9
 def replace_in_list(my_list, idx, element):
     for i, num in enumerate(my_list):
         if num == idx:
             my_list[i] = element
     return my_list
-print(replace_in_list(my_list, idx, element))
-print(replace_in_list(my_list, idx, element))
