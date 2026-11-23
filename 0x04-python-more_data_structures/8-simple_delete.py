@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def simple_delete(a_dictionary, key=""):
-    return {k: v for k, v in a_dictionary.items() if k != key}
-
-
 '''def simple_delete(a_dictionary, key=""):
+    return {k: v for k, v in a_dictionary.items() if k != key}'''
+
+
+def simple_delete(a_dictionary, key=""):
     a_dictionary.pop(key, None)
-    return a_dictionary'''
+    return a_dictionary
