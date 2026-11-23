@@ -1,4 +1,8 @@
-#!/bin/env python
+#!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
-    a_dictionary = {k: v for k, v in a_dictionary.items() if k != 'ids'}
-    print(a_dictionary)
+    return {k: v for k, v in a_dictionary.items() if k != key}
+
+
+'''def simple_delete(a_dictionary, key=""):
+    a_dictionary.pop(key, None)
+    return a_dictionary'''
